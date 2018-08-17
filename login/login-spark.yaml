@@ -72,7 +72,7 @@
       file: 
         path: /opt/vc3/home/.local
         recurse: yes  
-        mode: a+rwx
+        mode: a+x
 
     - name: Set vc3 python paths
       lineinfile:
